@@ -97,4 +97,5 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
-};
+raven: {image:"https://mail.google.com/mail/u/0?ui=2&ik=7063933b42&attid=0.1&permmsgid=msg-a:r-7230873771718079716&th=18fdecb3b0f44253&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8bpjBYFG-VtWKBYmB6i9SoH69PfhCktnA-_E6jCBURuLYuI7vwbiymWxAI9TqjPksdnE3heAyCCtVsFcUsgikj6k0XBhmXmJxZ-xE_pzs5YXxRirBDXdRFAWc&disp=emb&realattid=18fdecb1cc0def349f81"},
+}; 
