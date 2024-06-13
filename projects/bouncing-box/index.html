@@ -47,6 +47,8 @@
             var box = jQuery(".box"); // reference to the HTML .box element
             var board = jQuery(".board"); // reference to the HTML .board element
             var boardWidth = board.width(); // the maximum X-Coordinate of the screen
+            var boardWidth = board.height(); // the maximum X-Coordinate of the screen
+
 
             // Every 50 milliseconds, call the update Function (see below)
             setInterval(update, 50);
@@ -74,9 +76,8 @@
             var points = 1;
             var speedX = 10;
             var speedY = 10;
-            var PositionY = 0;
-            var boardHeight = jQuery(window).height();
-
+            var positionY = 0;
+           
             /*
       	This Function will be called 20 times/second. Each time it is called,
       	it should move the Box to a new location. If the box drifts off the screen
@@ -91,7 +92,7 @@
                 speedX = -speedX;
               }
               if (positionX < 0) {
-                speedX = -speedX;
+                speedX = -speedX;}
       	if (positionY > boardHeight) {
       		speedY = -speedY;
       	}
@@ -109,11 +110,11 @@
               positionX = 0;
               points = points + 1;
               changeBoxText(points);
-              speed = speed + 3;
+
               if (speedX > 0) {
                 speedX = speedX + 3;
               } else if (speedX <= 0) {
-                speedX = speedX - 3;
+                speedX = speedX - 3; }
                 if (speedY > 0) {
                 speedY = speedY + 3;
               } else if (speedY <= 0) {
