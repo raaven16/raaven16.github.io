@@ -56,17 +56,17 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
+    createCollectable('raven', 500,400,1, 1)
     createCollectable('raven', 500,500,1, 1)
-
-
+    createCollectable('raven', 500,300,1, 1)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon('bottom', 500, 900, 50, 100)
-    
-
+    createCannon('bottom', 500, 3000, 50, 100)
+    createCannon('top', 500, 3000, 50, 100)
+    createCannon('right', 500, 3000, 50, 100)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
